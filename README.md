@@ -21,6 +21,8 @@
 * 가게에 대한 리뷰를 작성할 때 총 인원수/총 지출금액/한줄리뷰를 남길 수 있고, 세이브피그는 입력한 리뷰를 바탕으로 1인당 평균 소비를 계산하여 지도에 표시합니다.
 * 각자 자신 만의 판단하에 적절한 금액이라고 생각되는 가게를 찾아볼 수 있습니다.<br>
 
+<br>
+
 # ☑️ DDD - Bounded Context
 
 > Domain-Driven Design (도메인 주도 설계)<br>
@@ -90,10 +92,14 @@
 # ☑️ 물리 모델링
 ![공유가계부_물리모델링](https://github.com/user-attachments/assets/669cd20f-f56e-43e7-8eea-b0ce8a3eae9e)
 
-# 테이블 DDL
+<br>
+
+# ☑️ 테이블 DDL
 [테이블 DDL 보러가기 ↗️](https://github.com/swcamp9thTeam1/backend-project-accountbook/wiki/%ED%85%8C%EC%9D%B4%EB%B8%94-DDL)
 
-# 개발적 측면 특징들
+<br>
+
+# ☑️ 개발적 측면 특징들
 
 ## 1. 서버 구조
 ![Slide 16_9 - 26](https://github.com/user-attachments/assets/80099bf6-80d2-4ad4-9a72-5849a79ea98e)
@@ -121,7 +127,64 @@
 
 > - 가계부 등록 기능을 구현할 때 FeignClient를 이용하여 다른 마이크로서비스의 조회 Controller를 호출<br>
 
-# 동료 평가
+<br>
+
+# ☑️ API TEST
+
+## 1. 회원가입
+![1 회원가입](https://github.com/user-attachments/assets/d83bd302-adac-4b82-b7b6-c09207561175)
+
+## 2. 로그인
+![2 로그인](https://github.com/user-attachments/assets/d1d34651-6251-4d3f-8304-d4eb11746265)
+
+## 3-a. 회원정보 조회
+![3 회원정보조회](https://github.com/user-attachments/assets/3a85f386-46d2-482b-aa61-e85c48de77f7)
+
+## 3-b. 회원정보 조회(with empty token)
+![3-a 회원정보조회(with empty token)](https://github.com/user-attachments/assets/b59fcab9-acb7-42a0-b0b0-98a478041fdb)
+
+## 4. 자산 등록
+![4 자산등록(계좌)](https://github.com/user-attachments/assets/114b7787-4d10-45ac-a1c8-cbc4613d1968)
+
+## 5-a. 가계부 카테고리 등록(지출)
+![5-a 가계부카테고리등록(지출)](https://github.com/user-attachments/assets/d744cdfb-40b6-4cae-b1fc-295f109312b2)
+
+## 5-b. 가계부 카테고리 등록(수입)
+![5-b 가계부카테고리등록(수입)](https://github.com/user-attachments/assets/435a91ca-704f-4513-93d0-968de94c4bba)
+
+## 6. 존재하는 가게 목록 조회
+![존재하는 가게 목록 조회](https://github.com/user-attachments/assets/a02413cf-2fe1-430d-827e-0389f1d4efc1)
+
+## 7-a. 가계부 작성(9월 5일 지출)
+![6-a 가계부작성(9월5일지출)](https://github.com/user-attachments/assets/5b400069-7528-4f21-9228-4c479aff63a9)
+
+## 7-b. 가계부 작성(9월 5일 수입)
+![6-b 가계부작성(9월5일수입)](https://github.com/user-attachments/assets/7175f8ba-bb19-479c-a448-52bea131cf21)
+
+## 7-c. 가계부 작성(9월 15일 지출)
+![6-c 가계부작성(9월15일지출)](https://github.com/user-attachments/assets/0998f75d-6b5b-447a-9b99-31f91e78d46a)
+
+## 8. 가게가 추가되었는지 확인
+![가게가 추가되었는지 확인](https://github.com/user-attachments/assets/a4232d68-74b2-41e5-a63e-8eb978085c00)
+
+## 9. 회원의 자산 조회
+![7 유저의자산조회](https://github.com/user-attachments/assets/eebf8421-3caa-46da-b3b7-70690bebaac5)
+
+## 10. 가계부 1개 상세조회
+![8 가계부1개상세조회](https://github.com/user-attachments/assets/5259e50a-8fdd-49f8-b115-439ada4d7c97)
+
+## 11. 특정 날짜의 가계부 목록 조회(9월 5일)
+![9 특정날짜의가계부목록조회(9월5일)](https://github.com/user-attachments/assets/8e228ee3-86d8-4a65-aaa6-c6adf0bd78d2)
+
+## 12. 가계 리뷰 작성
+![10 가게리뷰작성](https://github.com/user-attachments/assets/7b982109-4876-44cf-995e-f71a9a9c6902)
+
+## 13. 가게의 리뷰 목록 조회
+![11 가게의리뷰목록](https://github.com/user-attachments/assets/58c6ab03-346c-4332-acd9-2c3bb6db3a20)
+
+<br>
+
+# ☑️ 동료 평가
 
 ### <<장호정>> 님이 받은 동료 평가
 
