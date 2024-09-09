@@ -176,7 +176,7 @@
 ## 11. 특정 날짜의 가계부 목록 조회(9월 5일)
 ![9 특정날짜의가계부목록조회(9월5일)](https://github.com/user-attachments/assets/8e228ee3-86d8-4a65-aaa6-c6adf0bd78d2)
 
-## 12. 가계 리뷰 작성
+## 12. 가게 리뷰 작성
 ![10 가게리뷰작성](https://github.com/user-attachments/assets/7b982109-4876-44cf-995e-f71a9a9c6902)
 
 ## 13. 가게의 리뷰 목록 조회
